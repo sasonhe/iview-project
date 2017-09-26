@@ -86,7 +86,9 @@
             </Breadcrumb>
         </div>
         <div class="layout-content">
-            <div class="layout-content-main">内容区域</div>
+            <div class="layout-content-main">
+                <Table></Table>
+            </div>
         </div>
         <div class="layout-copy"> 2011-2016 &copy; TalkingData </div>
         </Col>
@@ -94,6 +96,7 @@
 </div>
 </template>
 <script>
+import Table from './table.vue'
 export default {
     data() {
         return {
@@ -116,6 +119,9 @@ export default {
                 this.spanRight = 19;
             }
         }
+    },
+    components: {
+        Table
     }
 }
 </script>
