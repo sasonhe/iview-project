@@ -103,7 +103,7 @@
         </div>
         <div class="layout-content">
             <div class="layout-content-main">
-                <Table-1></Table-1>
+                内容..............
             </div>
         </div>
         <div class="layout-copy"> 2011-2016 &copy; TalkingData </div>
@@ -112,7 +112,6 @@
 </div>
 </template>
 <script>
-import Table from './table.vue'
 export default {
     data() {
         return {
@@ -137,7 +136,6 @@ export default {
         }
     },
     components: {
-        'Table-1': Table
     }
 }
 </script>
